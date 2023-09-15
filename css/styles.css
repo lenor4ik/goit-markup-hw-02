@@ -27,14 +27,14 @@ ul {
 
 .header-logo {
   color: #4d5ae5;
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.header-logo span {
+.header-span-studio {
   color: var(--IRIS, #2e2f42);
 }
 
@@ -179,14 +179,14 @@ ul {
 
 .footer-logo {
   color: var(--IRIS, #4d5ae5);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.footer-logo span {
+.footer-span-studio {
   color: var(--CLOUD, #f4f4fd);
 }
 .footer-text {
