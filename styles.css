@@ -34,7 +34,6 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-
 span {
   color: var(--IRIS, #4d5ae5);
 }
@@ -58,8 +57,8 @@ span {
   letter-spacing: 0.02em;
   font-style: normal;
 }
-
-.header-mail-link:active {
+.header-mail-link:hover,
+.header-mail-link:focus {
   color: #404bbf;
 }
 
@@ -70,6 +69,7 @@ span {
   letter-spacing: 0.02em;
   font-style: normal;
 }
+
 .main {
   background: var(--NAVY-BLUE, #2e2f42);
 }
@@ -103,6 +103,7 @@ span {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+
 .main-menu-info {
   color: var(--SLATE, #434455);
   font-size: 16px;
