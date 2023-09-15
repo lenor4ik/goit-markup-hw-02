@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
   background-color: #ffffff;
 }
 .link {
@@ -26,18 +26,21 @@ ul {
 }
 
 .header-logo {
-  color: #2e2f42;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-span {
-  color: var(--IRIS, #4d5ae5);
+.header-logo span {
+  color: var(--IRIS, #2e2f42);
 }
 
+.header-contacts {
+  font-style: normal;
+}
 .header-menu-link {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 16px;
@@ -45,7 +48,8 @@ span {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.header-menu-link:active {
+.header-menu-link:hover,
+.header-menu-link:focus {
   color: #404bbf;
   text-decoration: underline;
 }
@@ -55,7 +59,6 @@ span {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
 }
 .header-mail-link:hover,
 .header-mail-link:focus {
@@ -67,7 +70,6 @@ span {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
 }
 
 .main {
@@ -92,7 +94,8 @@ span {
   cursor: pointer;
 }
 
-.main-order-btn:hover {
+.main-order-btn:hover,
+.main-order-btn:focus {
   background-color: var(--OCEAN, #404bbf);
 }
 
@@ -115,6 +118,9 @@ span {
   background: var(--CLOUD, #f4f4fd);
 }
 
+.team-title-item {
+  background: var(--CLOUD, #ffffff);
+}
 .team-title {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
@@ -172,7 +178,7 @@ span {
 }
 
 .footer-logo {
-  color: var(--CLOUD, #f4f4fd);
+  color: var(--IRIS, #4d5ae5);
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
@@ -180,7 +186,9 @@ span {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-
+.footer-logo span {
+  color: var(--CLOUD, #f4f4fd);
+}
 .footer-text {
   color: var(--CLOUD, #f4f4fd);
   font-size: 16px;
